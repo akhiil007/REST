@@ -1,0 +1,47 @@
+// Get All
+GET http://localhost:3000/items
+
+###
+// Get One By ID
+GET http://localhost:3000/items/60f959fddf5fdc2fc42e050f
+
+###
+// Create Subscriber 
+POST http://localhost:3000/items
+Content-Type: application/json
+
+// info of new item
+{
+    "store": "Headquarters",
+    "itemHandler": "",
+    "itemDisplay": "Amul Milk",
+    "itemDescription": "",
+    "categories": "Edible",
+    "manufacturers": "",
+    "distributors": "",
+    "taxes": "gst_5_0",
+    "hsnCode": "11121",
+    "variantName": "Ferrero Rocher - Crisp Ha...200 gm",
+    "sellingPrice": "999.99",
+    "buyingPrice": "",
+    "mrp": "",
+    "discount": "",
+    "discountType": "Rupee",
+    "sku": "",
+    "upc": "",
+    "currentQuantity": "1000",
+    "newQuantity": "1000",
+    "threshold": "10",
+    "unitType": "Other",
+    "unit": "pcs",
+    "item": "",
+    "brand": "",
+    "category": "",
+    "shade": "",
+    "uom": "",
+    "rackNo": "",
+    "group": ""
+}
+###
+// Delete By ID
+DELETE  http://localhost:3000/items/60f95fc4d645dc1c58d6209c
