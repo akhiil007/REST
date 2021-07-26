@@ -51,11 +51,16 @@ router.post('/', async (req, res) => {
     group: req.body.group,
   })  
   try {
-    const newItem = await item.save()
-    res.status(201).json(newItem)
-  } catch (err) {
+    if (req.body.productId) {
+        const updatedProduct = await Product.findByIdAndUpdate(req.body.productId, req.body)
+        res.status(201).json(updatedProduct)
+    } else {
+        const newProduct = await product.save()
+        res.status(201).json(newProduct)
+    }
+} catch (err) {
     res.status(400).json({ message: err.message })
-  }
+}
 })
 
 // Updating One
