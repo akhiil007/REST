@@ -80,9 +80,9 @@ router.patch('/:id', getItem, async (req, res) => {
   }
 })
 //Delete All
-router.delete('/', getItem, async (req, res) => {
+router.delete('/', async (req, res) => {
   try {
-    await res.item.remove()
+    await Item.remove()
     res.json({ message: 'Deleted all Items' })
   } catch (err) {
     res.status(500).json({ message: err.message })
