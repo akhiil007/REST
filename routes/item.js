@@ -79,6 +79,15 @@ router.patch('/:id', getItem, async (req, res) => {
     res.status(400).json({ message: err.message })
   }
 })
+//Delete All
+router.delete('/', getItem, async (req, res) => {
+  try {
+    await res.item.remove()
+    res.json({ message: 'Deleted all Items' })
+  } catch (err) {
+    res.status(500).json({ message: err.message })
+  }
+})
 
 // Deleting One
 router.delete('/:id', getItem, async (req, res) => {
