@@ -1,20 +1,23 @@
+
+
 // Get All
-GET http://localhost:3000/items
+GET http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
 
 ###
 // Get One By ID
-GET http://localhost:3000/items/60f959fddf5fdc2fc42e050f
+GET http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/60f959fddf5fdc2fc42e050f
 
-###
+### 
 // Create Subscriber 
-POST http://localhost:3000/items
+
+POST http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
 Content-Type: application/json
 
-// info of new item
+//http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com
 {
-    "store": "Headquarters",
+    "store": "Ahmedabad",
     "itemHandler": "",
-    "itemDisplay": "Amul Milk",
+    "itemDisplay": "Test01",
     "itemDescription": "",
     "categories": "Edible",
     "manufacturers": "",
@@ -40,8 +43,76 @@ Content-Type: application/json
     "shade": "",
     "uom": "",
     "rackNo": "",
-    "group": ""
+    "group": "",
+    "itemId":""
 }
+
+###
+// Delete All
+DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
+
+
+
 ###
 // Delete By ID
-DELETE  http://localhost:3000/items/60f95fc4d645dc1c58d6209c
+DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/60feac791e858404466b5ca9
+
+/////////////////////////////////////////////////////////////////
+
+###
+// LOCAL 
+// Get All
+GET http://localhost:3000/items
+
+###
+// Get One By ID
+GET http://localhost:3000/items/60f959fddf5fdc2fc42e050f
+
+###
+// Create Items 
+
+
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "store": "Ahmedabad",
+    "itemHandler": "",
+    "itemDisplay": "Rice",
+    "itemDescription": "",
+    "categories": "Edible",
+    "manufacturers": "",
+    "distributors": "",
+    "taxes": "gst_5_0",
+    "hsnCode": "11121",
+    "variantName": "Ferrero Rocher - Crisp Ha...200 gm",
+    "sellingPrice": "999.99",
+    "buyingPrice": "",
+    "mrp": "",
+    "discount": "",
+    "discountType": "Rupee",
+    "sku": "",
+    "upc": "",
+    "currentQuantity": "1000",
+    "newQuantity": "1000",
+    "threshold": "10",
+    "unitType": "Other",
+    "unit": "pcs",
+    "item": "",
+    "brand": "",
+    "category": "",
+    "shade": "",
+    "uom": "",
+    "rackNo": "",
+    "group": "",
+    "itemId":"6102ab8b31739b2cf405eed2"
+}
+
+###
+// Delete All
+DELETE  http://localhost:3000/items
+
+
+###
+// Delete By ID
+DELETE  http://localhost:3000/items/6102ab0a31739b2cf405eec2

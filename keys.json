@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "snappy-sight-321206",
+    "private_key_id": "e8439e9ab623b30b03849aca521feb27e4b076d5",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDihjVpYDi1GHV8\nF56rMHnHv5YMBktawKz7nKbLytGD9/4TK5Kxy+/5DwBBGfgNWbVzhbv/+NTU1bxo\nBgFJ3jJ0A0wtWEEW+mrxAeCcwVglhsOcD2fBUMqPmQY1zAyed0VdFsU0d/EEGbBO\nhcT0U/5+xTldHG5PtBzIwzSlYtOyrZBjfXGicPZELZPcx3D06mPA0ymv9ARHlpMa\n8UkC+W8jmFOUVPfKSDzyKOOzo0CfcEJ0lFlwi3ZKsSOhc4TwQ2wQjzvpllAqDcs1\nxPw+1LZO8IzlvjLKbiJS+okNAEFrlS9lBAj1fUx5P2WzjxLiSBWqHAjnLXkSLu2Q\nrTbCvpCvAgMBAAECggEAEHaGjTkEBg1YBIPG8VQdlanT4t3WPitApyy0Zp0/6uJs\nIcKJ78gNkcFIWHLltzqs2E+A4VKZTTqXbcv57f9rFUlkEOuYF25ttURYqavXlyqb\nLs1j0gXoItWRQPmqdR3f+ar8/Bo3dv/S83H/ZW5xUY9N4vl8/uftK54cRmTPU+3s\nTlTwBqSoth79S1S7EaRiFsw4b9RQswlKbwFkEEl4jaMR6qB4+07z0b6I/cwaWubL\npEuimNI1X9Medfny6463BwJFlZQ18xYKd98eSDopz3hm1/GpDGezzdBSlXaqdg9S\nBJoS1ljNwM9GePUY2rzBB8RMUzw6Vq6YLJu/psLs+QKBgQDy6pra6Uzw1C9dR/LP\nfcbmg++eZgOipWJHe2oYccW/5xYTYCy4KPQtmPnnEWG2KAtjFEsPFqEwEyqym8K+\nRbxgzuGp2Ew4XKS2aQn8H+NBNZhhgY4UdHplsREhImvfjE5wx+oMvK2UIDYpjCvE\nB69d45dbTDqPWE9UA3LXZZtxcwKBgQDuuZWMlmIG5oXL0kNGjt7r8sEUSfPK9chK\niEPJVdX1DHqI/ozHFgSdNGavAR2TVaHmkstPzxhu2SvqRZMPJPv3p0x4cBx8kDFC\n638QR8R396IcAD54MsLC8ms9JQsrK/xoTJUmtrUp1HBqT4G9QqxLZGlDDHzn9Q2d\nkmRV4Hck1QKBgQCSPflSd4gRqLyHHQyqLB+1oZJ9uw7POV/shvk9lCkoOhgJPCpQ\nCJ/QX7t7h/RadMs+L/ZsNASAa9mVw74/TL53TbV/yi9A801aX+xZ9FydYoXFlfiS\nifkyBaK5Xv6wi8ihj0lxt5mMhsP0yWWD09iY3q69kSvkJpdDjfvyf0JQzwKBgQDF\n98j5CUzJhCm4WOnJfXmIGYvck2dFDIXIqS/tquz/hhWnvdBo2O2CoI322un34K+e\nUmWgDZGpexdb8858ZKM/QNG9nttAwSLY6Ao7KgjXo9gfeGRVsWKp3/bmge29I4Dx\nzXBy5lleEvoWb1Cb7sqKyv4vyA9dHG7qGRhzzu1+8QKBgCOxYTmWU8kUkGfSRY90\naC6cBk/B+MZvGyiCDRC0lZk4uzKBpB179sKKYnr8RcVxk0KypNgC1+YIDfFIsBMO\nOuuBptqDgTHLiCdjAm8y7qNpHMb+qOsBeREY4QrpsjNY6phHnaLfJ+oHMK4xUXhi\ni2Z2n7k+bSgG7rftsX9SnbaI\n-----END PRIVATE KEY-----\n",
+    "client_email": "akhilesh@snappy-sight-321206.iam.gserviceaccount.com",
+    "client_id": "111968617076911738849",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/akhilesh%40snappy-sight-321206.iam.gserviceaccount.com"
+  }
