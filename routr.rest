@@ -17,7 +17,7 @@ Content-Type: application/json
 {
     "store": "Ahmedabad",
     "itemHandler": "",
-    "itemDisplay": "*******",
+    "itemDisplay": "Test01",
     "itemDescription": "",
     "categories": "Edible",
     "manufacturers": "",
@@ -55,64 +55,43 @@ DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
 
 ###
 // Delete By ID
-DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/614071791e858404466b6305
+DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/60feac791e858404466b5ca9
 
 /////////////////////////////////////////////////////////////////
 
 ###
 // LOCAL 
 // Get All
-GET http://localhost:3000/items
+GET http://localhost:3000/yelp
 
 ###
 // Get One By ID
-GET http://localhost:3000/items/61488bd51796c20a04cf8b25
+GET http://localhost:3000/yelp/6135ea7db21b881ea4d9e38d
 
 ###
 // Create Items 
 
 
-POST http://localhost:3000/items/
+POST http://localhost:3000/yelp
 Content-Type: application/json
 
 {
-    "merchantId": "600eab2bf37543001bea6506",
-    "store": "Ahmedabad",
-    "itemHandler": "0",
-    "itemDisplay": "HHH",
-    "itemDescription": "*",
-    "categories": "Fruits",
-    "manufacturers": "",
-    "distributors": "",
-    "taxes": "",
-    "hsnCode": "",
-    "variantName": "",
-    "sellingPrice": "75",
-    "buyingPrice": "",
-    "mrp": "",
-    "discount": "",
-    "discountType": "Rupee",
-    "sku": "",
-    "upc": "",
-    "currentQuantity": "",
-    "newQuantity": "1000",
-    "threshold": "10",
-    "unitType": "Other",
-    "unit": "pcs",
-    "item": "",
-    "brand": "Brand",
-    "category": "cat1",
-    "shade": "sh1",
-    "uom": "uom1",
-    "rackNo": "rack1",
-    "group": "grp1"
-  }
-###
+        "name": "The Loco Frijole",
+        "rating": 3.5,
+        "latitude": 37.6485033247253,
+        "longitude": -118.977794873757,
+        "address": "3711 Main St Mammoth Lakes, CA 93546",
+        "city": "Mammoth Lakes",
+        "zip": 93546,
+        "country": "US",
+        "state": "CA"
+}
 
+###
 // Delete All
-DELETE  http://localhost:3000/items
+DELETE  http://localhost:3000/yelp
 
 
 ###
 // Delete By ID
-DELETE  http://localhost:3000/items/
+DELETE  http://localhost:3000/yelp/6135ea7db21b881ea4d9e38f

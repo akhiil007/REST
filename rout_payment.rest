@@ -1,0 +1,120 @@
+
+
+// Get All
+GET http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
+
+###
+// Get One By ID
+GET http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/60f959fddf5fdc2fc42e050f
+
+###
+// Create Subscriber 
+
+POST http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
+Content - Type: application / json
+
+//http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com
+{
+    "store": "Ahmedabad",
+        "itemHandler": "",
+            "itemDisplay": "*******",
+                "itemDescription": "",
+                    "categories": "Edible",
+                        "manufacturers": "",
+                            "distributors": "",
+                                "taxes": "gst_5_0",
+                                    "hsnCode": "11121",
+                                        "variantName": "Ferrero Rocher - Crisp Ha...200 gm",
+                                            "sellingPrice": "999.99",
+                                                "buyingPrice": "",
+                                                    "mrp": "",
+                                                        "discount": "",
+                                                            "discountType": "Rupee",
+                                                                "sku": "",
+                                                                    "upc": "",
+                                                                        "currentQuantity": "1000",
+                                                                            "newQuantity": "1000",
+                                                                                "threshold": "10",
+                                                                                    "unitType": "Other",
+                                                                                        "unit": "pcs",
+                                                                                            "item": "",
+                                                                                                "brand": "",
+                                                                                                    "category": "",
+                                                                                                        "shade": "",
+                                                                                                            "uom": "",
+                                                                                                                "rackNo": "",
+                                                                                                                    "group": "",
+                                                                                                                        "itemId": ""
+}
+
+###
+// Delete All
+DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items
+
+
+
+###
+// Delete By ID
+DELETE  http://ec2-18-220-100-33.us-east-2.compute.amazonaws.com/api/items/614071791e858404466b6305
+
+/////////////////////////////////////////////////////////////////
+
+###
+// LOCAL 
+// Get All
+GET http://localhost:3000/payment
+
+###
+// Get One By ID
+GET http://localhost:3000/items/615edcf3eb7ffb2ffc76372f
+
+###
+// Create Items 
+
+
+POST http://localhost:3000/payment
+Content-Type: application/json
+
+{
+    "orderId": "60213c4508dcfc21cd2b6e66",
+    "userId": "5f48d62a82c397001b5ee985",
+    "storeId": "5f48d62a82c397001b5ee984",
+    "companyId": "5f48d62a82c397001b5ee983",
+    "merchantId": "5f48d62a82c397001b5ee981",
+    "currencyId": "5dd5a23b8d799f001b86d545",
+    "customerId": "5f8fcec4ee01642cf0d763f2",
+    "subtotal": "100",
+    "amount": "100",
+    "discount": "0",
+    "tips": "0",
+    "isSplit": 0,
+    "localId": "",
+    "status": 10,
+    "lat": "111",
+    "lon": "3113",
+    "transactions": [
+        {
+            "userId": "5f48d62a82c397001b5ee985",
+            "storeId": "5f48d62a82c397001b5ee984",
+            "companyId": "5f48d62a82c397001b5ee983",
+            "merchantId": "5f48d62a82c397001b5ee981",
+            "currencyId": "5dd5a23b8d799f001b86d545",
+            "status": "INTIATED",
+            "type": "5d9f1cdba455cf04c08ae6cf",
+            "amount": "10",
+            "applicationId": "5de04f21657f32001bf396b6",
+            "localId": "",
+            "extraFields": "[]",
+            "createdAt": 1603260085,
+            "updatedAt": 1603260085
+        }
+    ]
+}
+###
+// Delete All
+DELETE  http://localhost:3000/payment
+
+
+###
+// Delete By ID
+DELETE  http://localhost:3000/items/614dc3666dd963246036e801
